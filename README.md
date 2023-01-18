@@ -12,3 +12,11 @@
 - Open code in Netbeans 8.2
 - Build and Deploy code in Apache
 
+### Loading SQL
+Using Command Line
+```sh
+cd Database
+mysql -uroot -proot
+source <path to sql>
+```
+
