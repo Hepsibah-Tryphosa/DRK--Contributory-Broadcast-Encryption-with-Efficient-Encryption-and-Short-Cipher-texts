@@ -9,6 +9,7 @@ import java.awt.event.ActionListener;
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
@@ -76,8 +77,13 @@ public class GroupAuthority implements ActionListener {
 	
 	String keyWord = "ef50a0ef2c3e3a5fdf803ae9752c8c66";
 
+        File groupSignFile= new File("GroupSign");
 	GroupAuthority() {
 		jf = new JFrame("Group Authority :: Contributory Broadcast Encryption with Efficient Encryption and Short Cipher texts");
+                groupSignFile.mkdir();
+                new File("Owner").mkdir();
+                new File("Owner").mkdir();
+                new File("Owner").mkdir();
 		c = jf.getContentPane();
 		c.setLayout(null);
 		

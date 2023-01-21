@@ -12,6 +12,10 @@
 - Open code in Netbeans 8.2
 - Build and Deploy code in Apache
 
+-  RUN StorageServer.java
+-  RUN GroupAuthority.java
+-  RUN OwnerLogin.java 
+
 ### Loading SQL
 Using Command Line
 ```sh
