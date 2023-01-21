@@ -77,12 +77,13 @@ public class GroupAuthority implements ActionListener {
 	
 	String keyWord = "ef50a0ef2c3e3a5fdf803ae9752c8c66";
 
-        File groupSignFile= new File("GroupSign");
+//        File groupSignFile= new File("GroupSign");
 	GroupAuthority() {
 		jf = new JFrame("Group Authority :: Contributory Broadcast Encryption with Efficient Encryption and Short Cipher texts");
-                groupSignFile.mkdir();
+//                groupSignFile.mkdir();
+                new File("GroupSign").mkdir();
                 new File("Owner").mkdir();
-                new File("Owner").mkdir();
+                new File("StorageServer").mkdir();
                 new File("Owner").mkdir();
 		c = jf.getContentPane();
 		c.setLayout(null);
