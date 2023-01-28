@@ -23,4 +23,5 @@ cd Database
 mysql -uroot -proot
 source <path to sql>
 ```
-
+### Project Execution
+[Flow](https://drive.google.com/file/d/1sgJa-tU1gOk-2kpY3Q3lqkdZkvPMBwr1/view?usp=sharing)
