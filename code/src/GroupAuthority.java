@@ -85,6 +85,7 @@ public class GroupAuthority implements ActionListener {
                 new File("Owner").mkdir();
                 new File("StorageServer").mkdir();
                 new File("Owner").mkdir();
+                new File("EndUser").mkdir();
 		c = jf.getContentPane();
 		c.setLayout(null);
 		
